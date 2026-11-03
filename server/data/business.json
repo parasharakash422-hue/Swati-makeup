@@ -1,0 +1,14 @@
+{
+  "name": "Swati Sharma",
+  "brand": "Swati Sharma Makeup Artistry",
+  "tagline": "Bridal, party and occasion makeup at your doorstep or at the studio.",
+  "phone": "+91 85870 00481",
+  "phoneRaw": "918587000481",
+  "email": "parasharakash422@gmail.com",
+  "address": {
+    "line1": "D1-402, Amrapali Dream Valley, Phase 2",
+    "line2": "Greater Noida West, Uttar Pradesh"
+  },
+  "mapsQuery": "Amrapali Dream Valley Phase 2 Greater Noida West",
+  "hours": "By appointment, 7 days a week"
+}

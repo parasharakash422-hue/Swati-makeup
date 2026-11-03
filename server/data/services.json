@@ -1,0 +1,113 @@
+[
+  {
+    "category": "Bridal",
+    "items": [
+      {
+        "id": "bridal-hd",
+        "name": "HD bridal makeup",
+        "description": "Long-wear HD base, eye look of your choice, lashes, hairstyling and dupatta setting.",
+        "duration": "3 hours",
+        "price": 25000,
+        "shade": "#B3263E"
+      },
+      {
+        "id": "bridal-airbrush",
+        "name": "Airbrush bridal makeup",
+        "description": "Lightweight, sweat-resistant airbrush base that lasts through the pheras and the reception.",
+        "duration": "3.5 hours",
+        "price": 35000,
+        "shade": "#8E1B33"
+      },
+      {
+        "id": "engagement",
+        "name": "Engagement & roka look",
+        "description": "Soft glam or statement look, with hairstyling and draping included.",
+        "duration": "2 hours",
+        "price": 12000,
+        "shade": "#C4566A"
+      },
+      {
+        "id": "reception",
+        "name": "Reception & cocktail look",
+        "description": "Evening glam made for stage lighting and photographs.",
+        "duration": "2 hours",
+        "price": 15000,
+        "shade": "#6E2A3F"
+      }
+    ]
+  },
+  {
+    "category": "Party & occasion",
+    "items": [
+      {
+        "id": "party",
+        "name": "Party makeup",
+        "description": "Weddings, festivals and parties. Includes basic hairstyling.",
+        "duration": "1 hour",
+        "price": 4000,
+        "shade": "#D98A86"
+      },
+      {
+        "id": "family",
+        "name": "Family & bridesmaid makeup",
+        "description": "For the bride's mother, sisters and friends. Per person, booked with a bridal package.",
+        "duration": "45 minutes",
+        "price": 3000,
+        "shade": "#E3A99B"
+      },
+      {
+        "id": "shoot",
+        "name": "Pre-wedding & photoshoot",
+        "description": "Camera-ready makeup with one look change on location.",
+        "duration": "Half day",
+        "price": 8000,
+        "shade": "#A9645C"
+      },
+      {
+        "id": "haldi-mehendi",
+        "name": "Haldi & mehendi look",
+        "description": "Fresh, dewy makeup with floral or traditional hairstyling.",
+        "duration": "1.5 hours",
+        "price": 6000,
+        "shade": "#D4A04C"
+      }
+    ]
+  },
+  {
+    "category": "Add-ons",
+    "items": [
+      {
+        "id": "hair",
+        "name": "Hairstyling only",
+        "description": "Buns, braids, curls or open styles, with accessories pinned.",
+        "duration": "45 minutes",
+        "price": 2500,
+        "shade": "#5B3A2E"
+      },
+      {
+        "id": "draping",
+        "name": "Saree or dupatta draping",
+        "description": "Any regional or modern drape, pleated and pinned to stay.",
+        "duration": "30 minutes",
+        "price": 1000,
+        "shade": "#C98B6B"
+      },
+      {
+        "id": "lashes",
+        "name": "Premium lashes",
+        "description": "Mink-effect strip lashes, applied and yours to keep.",
+        "duration": "15 minutes",
+        "price": 500,
+        "shade": "#2B2230"
+      },
+      {
+        "id": "trial",
+        "name": "Bridal trial",
+        "description": "A full trial of your bridal look. Adjusted against the package if you book.",
+        "duration": "2 hours",
+        "price": 5000,
+        "shade": "#E7C3BC"
+      }
+    ]
+  }
+]
