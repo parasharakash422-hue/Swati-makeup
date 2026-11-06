@@ -4,9 +4,9 @@
   "private": true,
   "description": "Website for Swati Sharma Makeup Artistry: React frontend + Express API",
   "scripts": {
-    "setup": "npm install --prefix server && npm install --prefix client",
+    "setup": "npm install --prefix server && npm install --prefix client --include=dev",
     "dev": "concurrently -n api,web -c magenta,cyan \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
-    "build": "npm run build --prefix client",
+    "build": "npm run setup && npm run build --prefix client",
     "start": "npm start --prefix server"
   },
   "devDependencies": {
