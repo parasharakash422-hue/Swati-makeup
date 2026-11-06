@@ -33,11 +33,22 @@ Open http://localhost:5173 for the site and http://localhost:5173/admin for enqu
 
 ## Turn on email alerts for new enquiries
 
+**On Render's free plan (or any host that blocks email ports): use Resend.**
+
+1. Sign up at https://resend.com using parasharakash422@gmail.com (the free plan
+   only delivers to the address the account was created with).
+2. In Resend, go to API Keys and create a key with "Sending access".
+3. In Render, open the service, then Environment, and add `RESEND_API_KEY` (the key) and
+   `NOTIFY_EMAIL=parasharakash422@gmail.com`. Save; Render redeploys.
+
+**On your own computer or a paid host: Gmail also works.**
+
 1. On the Gmail account, turn on 2-Step Verification.
 2. Create an App Password at https://myaccount.google.com/apppasswords.
 3. Put it in `server/.env` as `SMTP_PASS=...` and restart the server.
 
-Without this, enquiries are still saved and shown at `/admin`.
+If both are set, Resend is used. Without either, enquiries are still saved and shown at `/admin`.
+The server log says `Enquiry emails: ON (Resend)` or `ON (SMTP)` when it starts.
 
 ## Change prices, services or contact details
 

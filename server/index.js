@@ -5,7 +5,7 @@ import path from 'node:path';
 import { existsSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { addEnquiry, listEnquiries, updateEnquiryStatus } from './lib/store.js';
-import { mailEnabled, sendEnquiryEmail } from './lib/mailer.js';
+import { mailEnabled, mailMethod, sendEnquiryEmail } from './lib/mailer.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const readJson = (f) => JSON.parse(readFileSync(path.join(__dirname, 'data', f), 'utf8'));
@@ -134,5 +134,5 @@ if (existsSync(dist)) {
 
 app.listen(PORT, () => {
   console.log(`API running on http://localhost:${PORT}`);
-  console.log(mailEnabled() ? 'Enquiry emails: ON' : 'Enquiry emails: OFF (add SMTP settings to .env)');
+  console.log(mailEnabled() ? `Enquiry emails: ON (${mailMethod()})` : 'Enquiry emails: OFF (add RESEND_API_KEY or SMTP settings)');
 });
